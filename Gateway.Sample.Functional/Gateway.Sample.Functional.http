@@ -1,0 +1,6 @@
+@Gateway.Sample.Functional_HostAddress = http://localhost:5055
+
+GET {{Gateway.Sample.Functional_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
